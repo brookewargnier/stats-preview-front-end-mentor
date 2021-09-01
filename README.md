@@ -11,7 +11,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [Time] (#time-spent)
+  - [Time spent] (#time-spent)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -61,14 +61,15 @@ In future projects, I'd like to add more interactive elements, and really play w
 - [resource 7](https://www.keycdn.com/blog/oocss) - implementing OOCSS
 - [resource 8](https://www.madebymike.com.au/writing/precise-control-responsive-typography/) - This is great for setting up more flexible fonts beyond using REM.
 ### Time spent
- - began 8/28/2021
-      [time log]
-        9AM - 10AM: 1 hour for project organization, file set up, and compiling beginning resources on README page.
-        10AM - 11AM: Learn about BEM/OOCSS
-        1:30PM - 2PM: HTML setup and class setup
-        4PM - 7:30PM: css
-    Cont. 8/31/2021
-        6PM - 8PM: Add media quiries and work on responsive classes
+ -  8/28/2021
+       - 9AM - 10AM: 1 hour for project organization, file set up, and compiling beginning resources on README page.
+       - 10AM - 11AM: Learn about BEM/OOCSS
+       - 1:30PM - 2PM: HTML setup and class setup
+       - 4PM - 7:30PM: css
+  - 8/31/2021
+       - 6PM - 8PM: Add media quiries and work on responsive classes
+   - 9/01/2021
+       - 7AM - 9AM: Adjust media quiries & upload to github
 ## Author
 
 - Brooke Wargnier
