@@ -15,8 +15,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,17 +25,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/brookewargnier/stats-preview-front-end-mentor)
+- Live Site URL: (https://brookewargnier.github.io/stats-preview-front-end-mentor/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -61,6 +56,7 @@ In future projects, I'd like to add more interactive elements, and really play w
 - [resource 7](https://www.keycdn.com/blog/oocss) - implementing OOCSS
 - [resource 8](https://www.madebymike.com.au/writing/precise-control-responsive-typography/) - This is great for setting up more flexible fonts beyond using REM.
 ### Time spent
+
  -  8/28/2021
        - 9AM - 10AM: 1 hour for project organization, file set up, and compiling beginning resources on README page.
        - 10AM - 11AM: Learn about BEM/OOCSS
@@ -75,6 +71,5 @@ In future projects, I'd like to add more interactive elements, and really play w
 - Brooke Wargnier
 - Frontend Mentor - [@brookewargnier](https://www.frontendmentor.io/profile/brookewargnier)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 
