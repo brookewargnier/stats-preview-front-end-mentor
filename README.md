@@ -11,7 +11,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [Time] (#time)
+  - [Time] (#time-spent)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -60,7 +60,7 @@ In future projects, I'd like to add more interactive elements, and really play w
 - [resource 6](https://www.smashingmagazine.com/2016/06/battling-bem-extended-edition-common-problems-and-how-to-avoid-them/) - Problems to avoid with BEM
 - [resource 7](https://www.keycdn.com/blog/oocss) - implementing OOCSS
 - [resource 8](https://www.madebymike.com.au/writing/precise-control-responsive-typography/) - This is great for setting up more flexible fonts beyond using REM.
-### Time
+### Time spent
  - began 8/28/2021
       [time log]
         9AM - 10AM: 1 hour for project organization, file set up, and compiling beginning resources on README page.
