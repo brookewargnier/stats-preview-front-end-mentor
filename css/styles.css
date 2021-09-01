@@ -1,0 +1,268 @@
+/*****************************************************************************/
+/******************************* FOUNDATION **********************************/
+/*****************************************************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*****************************************************************************/
+/******************************* VARIABLES ***********************************/
+/*****************************************************************************/
+
+:root {
+  --primary-color: hsl(244, 38%, 16%);
+  --secondary-color: hsl(233, 47%, 7%);
+  --accent-color: hsl(277, 64%, 61%);
+  --white-color: hsl(0, 0%, 100%);
+  --paragraph-white: hsla(0, 0%, 100%, 0.75);
+  --stat-heading-white: hsla(0, 0%, 100%, 0.6);
+  --font-main: 'Inter', sans-serif;
+  --font-second: 'Lexend Deca', sans-serif;
+  --font-weight-main-regular: 400;
+  --font-weight-main-bold: 700;
+  --font-weight-second-regular: 400;
+}
+
+/*****************************************************************************/
+/**************************** READY CLASSES **********************************/
+/*****************************************************************************/
+
+.bg-primary {
+  background-color: var(--secondary-color);
+}
+
+/*****************************************************************************/
+/**************************** GENERAL STYLES *********************************/
+/*****************************************************************************/
+
+html, body {
+  font-size: 16px;
+  height: 100%;
+  color: var(--white-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*****************************************************************************/
+/********************************* CARD **************************************/
+/*****************************************************************************/
+
+.card {
+  width: 100%;
+  max-width: 69.375rem;
+  height: 100vh;
+  max-height: 27.875rem;
+  background-color: var(--primary-color);
+  border-radius: .5rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/** card image element container **/
+
+.card__img-container {
+  order: 1;
+  width: 33.75rem;
+  height: 100%;
+  position: relative;
+}
+
+.card__img {
+  background-image: url(../images/image-header-desktop.jpg);
+  background-color: var(--accent-color);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  width: inherit;
+
+}
+
+
+/** card content container **/
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin: 4.438rem 5.938rem 3.688rem 4.5rem;
+}
+
+/** card title and desc container **/
+
+
+.card__title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__title {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-main-bold);
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  margin-bottom: 1.563rem;
+}
+
+.class__title--highlight {
+  color: var(--accent-color);
+}
+
+.card__desc {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-main-regular);
+  font-size: .938rem;
+  line-height: 1.563rem;
+}
+
+/** card list container **/
+
+.card__list-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-right: 1rem;
+}
+
+.card__l-item {
+  font-family: var(--font-main);
+  font-weight: var(--font-weight-main-bold);
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.card__d-item {
+  font-family: var(--font-second);
+  font-weight: var(--font-weight-second-regular);
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.card__item-container {
+  transition: .3 ease;
+}
+
+.card__item-container:hover{
+  transform: scale(1.2);
+}
+
+/** Media Queries: Tablet **/
+
+@media screen and (max-width: 1100px) and (min-width: 700px){
+  .card {
+    max-width: 37.5rem;
+    min-height: 48.75rem;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .card__img-container {
+    order: 0;
+    width: 100%;
+    height: 15rem;
+  }
+
+  .card__container {
+    margin: 0;
+    margin: 2.5rem 1.969rem 2rem 1.969;
+    justify-content: space-around;
+  }
+
+  .card__list-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5rem 0 2rem 0;
+  }
+
+  .card__item-container {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  .card__title {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 1rem 4rem 2rem 4rem;
+    line-height: 2rem;
+  }
+
+  .card__desc {
+    text-align: center;
+    font-size: .938rem;
+    margin: 0 4rem .5rem 4rem;
+    line-height: 1.563;
+    max-width: 37.5rem;
+    min-height: 1.563rem;
+  }
+
+}
+
+/** Media Queries: Phone **/
+
+  @media screen and (max-width: 700px) {
+    .card {
+      max-width: 20.438rem;
+      min-height: 48.75rem;
+      flex-direction: column;
+      margin: 2rem;
+    }
+
+    .card__img-container {
+      order: 0;
+      width: 100%;
+      height: 15rem;
+    }
+
+    .card__container {
+      margin: 0;
+      margin: 2.5rem 1.969rem 2rem 1.969;
+      justify-content: space-around;
+    }
+
+    .card__list-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin: .5rem 0 2rem 0;
+    }
+
+    .card__item-container {
+      margin: 1.5rem 0 1.5rem 0;
+    }
+
+    .card__title {
+      text-align: center;
+      font-size: 1.75rem;
+      margin: 1.5rem 1.969rem 1rem 1.969rem;
+      line-height: 2rem;
+    }
+
+    .card__desc {
+      text-align: center;
+      font-size: .938rem;
+      margin: 0 1.969rem 0rem 1.969rem;
+      line-height: 1.563;
+      max-width: 37.5rem;
+      min-height: 1.563rem;
+    }
+
+  }
+
+  }
